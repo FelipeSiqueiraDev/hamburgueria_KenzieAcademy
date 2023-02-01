@@ -1,0 +1,11 @@
+.maincontent {
+  margin-top: 100px;
+}
+
+@media (min-width: 769px) {
+  .mainContent {
+    display: flex;
+    margin-top: 100px;
+    padding-top: 20px;
+  }
+}

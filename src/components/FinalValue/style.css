@@ -1,0 +1,57 @@
+.totalValue {
+  width: 95%;
+  margin: 5px auto;
+  border: 1px solid var(--gray-20);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.totalValue > div {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+}
+
+.totalValue > div > p {
+  margin: 5px 5px;
+
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray-100);
+}
+
+.totalValue > div > span {
+  margin: 5px 5px;
+
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray-50);
+}
+
+.totalValue > button {
+  margin: 10px auto;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  color: var(--gray-50);
+  background-color: var(--gray-20);
+  border-radius: 8px;
+  padding: 15px 80px;
+}
+
+@media (min-width: 769px) {
+  .totalValue {
+    margin-right: 55px;
+    width: 100%;
+  }
+  .totalValue > button:hover {
+    background-color: var(--gray-50);
+    color: var(--gray-20);
+
+    cursor: pointer;
+  }
+}
